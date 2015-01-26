@@ -3,7 +3,7 @@
 //1/26/15
 //Program that will take a string and determine if it is a palindrome
 
-
+	load("stack.js");
    function isP(word) {
 	var s = new Stack();
 	for (var i = 0; i < word.length; ++i) {
